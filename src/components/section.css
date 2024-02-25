@@ -1,0 +1,49 @@
+.sectionContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-LHD-6.22.jpg'); */
+}
+.Model-S{
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-LHD-6.22.jpg');
+}
+.headingText{
+    padding-top:15vh;
+    text-align:center;
+}
+.footerButtons {
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.shopButton,.driveButton,.driveButton:hover{
+    background-color: white;
+    height: 40px;
+    width: 250px;
+    color:black;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    opacity: 0.85;
+    margin: 5px;
+}
+.driveButton{
+    background-color: transparent;
+    color: white;
+    border: solid white 2px;
+   
+}
+
+@media (max-width:768px){
+    .footerButtons{
+        flex-direction: column;
+    }
+}
