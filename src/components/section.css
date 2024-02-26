@@ -8,10 +8,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-LHD-6.22.jpg'); */
 }
 .Model-S{
     background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-LHD-6.22.jpg');
+}
+.Model-Y{
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-Y-Range-Desktop-LHD.jpg');
+}
+.Cybertruck{
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.jpg');
 }
 .headingText{
     padding-top:15vh;

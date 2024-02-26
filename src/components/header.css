@@ -1,0 +1,34 @@
+.navContainer{
+    min-height: 60px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+}
+.teslaIcon{
+    width: 140px;
+}
+.navbarItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+}
+.navbarItems p{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 10px;
+    flex-wrap: nowrap;
+}
+.navEndItems a{
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+/* https://upload.wikimedia.org/wikipedia/commons/b/b8/Tesla%2C_Inc._-_Logo_%28black_script_version%29.svg */

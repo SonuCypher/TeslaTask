@@ -1,10 +1,10 @@
 import React from 'react'
-import styled from 'styled-components'
 import Section from './Section'
+import './home.css'
 
 function Home() {
     return (
-        <HomeContainer>
+        <main className='homeContainer'>
             <Section
                 title = "Model S"
                 description = "Lease starting at $329/mo*"
@@ -30,16 +30,20 @@ function Home() {
             <Section 
                 title = "Model Y"
                 description = "Lease starting at $329/mo*"
-                image ="Model-S"
+                image ="Model-Y"
                 leftButton ="Shop Available"
                 rightButton = "Demo Drive"
                 />
-        </HomeContainer>
+            <Section 
+                title = ""
+                description = ""
+                image ="Cybertruck"
+                leftButton ="Shop Available"
+                rightButton = "Demo Drive"
+                />
+        </main>
     )
 }
 
 export default Home
 
-const HomeContainer = styled.div`
-    height: 100vh;
-`
