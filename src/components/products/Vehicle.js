@@ -1,13 +1,18 @@
 import React from 'react'
-import './section.css'
+import './vehicle.css'
+import { Fade } from "react-awesome-reveal";
+import { Link } from 'react-router-dom';
 
-function Section(props) {
+function Vehicle(props) {
     return (
-        <section className={`sectionContainer ${props.image}`}>
+        <section id={props.sectionId} className={`sectionContainer ${props.image}`}>
+            <Fade direction='up'>
             <header className='headingText'>
-            <h1>{props.title}</h1>
+            <Link to={`/products/${props.image}`}><h1>{props.title}</h1></Link>
             <p>{props.description}</p>
             </header>
+            </Fade>
+            <Fade direction='up'>
             <footer className='footerButtons'>
                 <div className='shopButton'>
                     {props.leftButton}
@@ -16,9 +21,10 @@ function Section(props) {
                 {props.rightButton}
                 </div>
             </footer>
+            </Fade>
         </section>
         )
 }
 
-export default Section
+export default Vehicle
 

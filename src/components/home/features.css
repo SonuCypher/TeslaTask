@@ -1,0 +1,27 @@
+.featureContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    /* background-image:url('https://images.unsplash.com/photo-1607171028974-319ba56cb013?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') ; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.mainHeading {
+    padding-top:15vh;
+    text-align:center;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.mainHeading h1 {
+    color:rgb(0, 0, 0);
+}
+.mainHeading p {
+    color:rgb(0, 0, 0);
+}

@@ -5,23 +5,27 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-image:url('https://images.unsplash.com/photo-1536700503339-1e4b06520771?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-.Model-S{
-    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-LHD-6.22.jpg');
-}
-.Model-Y{
-    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-Y-Range-Desktop-LHD.jpg');
-}
-.Cybertruck{
-    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.jpg');
-}
+
+
 .headingText{
     padding-top:15vh;
     text-align:center;
+    
 }
+.headingText h1{
+    font-size: 45px;
+    color: rgb(237, 216, 187);
+}
+.headingText p{
+    font-size: 20px;
+    color: rgb(237, 216, 187);
+}
+
 .footerButtons {
     display: flex;
     margin-bottom: 30px;
@@ -37,6 +41,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    border: none;
     opacity: 0.85;
     margin: 5px;
 }

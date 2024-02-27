@@ -3,12 +3,16 @@
     position: fixed;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 20px;
     width: 100%;
+    z-index: 1;
 }
 .teslaIcon{
     width: 140px;
 }
+
+
 .navbarItems{
     display: flex;
     align-items: center;
@@ -22,13 +26,58 @@
     padding: 0 10px;
     flex-wrap: nowrap;
 }
-.navEndItems a{
+.navbarItems p:hover{
+    color: rgb(190, 183, 183);
+    
+}
+
+
+.navEndItems{
+    display: flex;
+    align-items: center;
+}
+/* .navEndItems a{
     font-weight: 600;
     text-transform: uppercase;
     margin-right: 10px;
+} */
+
+
+.menudrop{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    background: white;
+    width:300px;
+    z-index: 16;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
 }
+.menudrop li{
+    padding: 15px 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    font-weight: 600;
+}
+
+
+.closeIcon{
+    cursor:pointer;
+}
+
+
 a{
     text-decoration: none;
+}
+
+@media(max-width:768px){
+    .navbarItems{
+        display: none;
+    }
 }
 
 /* https://upload.wikimedia.org/wikipedia/commons/b/b8/Tesla%2C_Inc._-_Logo_%28black_script_version%29.svg */
